@@ -1,0 +1,15 @@
+
+import mysql.connector as c
+mydb = .connect(
+  host="localhost",
+  user="yourusername",
+  password="yourpassword",
+  database="mydatabase"
+)
+mycursor = mydb.cursor()
+
+name=input("Enter your name")
+id = input("Enter your id")
+mycursor.execute("insert into student values(%s,%s)",(id,name))
+mydb.commit()
+
