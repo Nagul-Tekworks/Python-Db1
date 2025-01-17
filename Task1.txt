@@ -1,0 +1,22 @@
+
+
+
+1. Read csv, excel and json file
+2. load only first 100 rows
+3. Display first 5 rows and last two columns
+4. Display 50 to 100 rows
+5. Display all the rows from first 3 columns.
+6. Convert Object format to date format
+7. convert object to int, float formats.
+
+
+
+
+
+
+
+
+
+
+
+
